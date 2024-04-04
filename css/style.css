@@ -1,0 +1,69 @@
+/* Ajustar a cor do cabeçalho para um tom de cinza escuro */
+header {
+  background-color: #DFDFDF; /* Cinza escuro */
+  padding: 10px 0; /* Reduza o preenchimento para 10px acima e abaixo */
+  text-align: center;
+}
+
+/* Ajustar a cor do texto para o menu em branco */
+nav ul li a {
+  color: #fff; /* Branco */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd; /* Cinza claro no hover */
+}
+
+/* Ajustar a cor do botão para um tom de cinza escuro */
+.btn-primary {
+  background-color: #333; /* Cinza escuro */
+  border-color: #333; /* Mantenha a borda na mesma cor do fundo */
+}
+
+.btn-primary:hover {
+  background-color: #555; /* Cinza mais escuro no hover */
+  border-color: #555; /* Mantenha a borda na mesma cor do fundo no hover */
+}
+
+/* Ajustar a cor do fundo do rodapé para um tom de cinza escuro */
+footer {
+  background-color: #333; /* Cinza escuro */
+  color: #fff; /* Texto branco */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Ajustar a cor do cabeçalho para um azul escuro */
+header {
+  background-color: #333; /* Altere para um azul escuro */
+  padding: 0px 0; /* Reduza o preenchimento para 10px acima e abaixo */
+  text-align: center;
+}
+/* Reduzir o tamanho da logo */
+.navbar-brand img {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+/* Estilos CSS personalizados */
+#carousel-container {
+  margin: 25px auto; /* Centraliza o carrossel */
+  max-width: 800px; /* Define uma largura máxima para o carrossel */
+  text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+.galeria-img {
+  height: 150px; /* Defina a altura desejada para as imagens */
+  width: 300px;
+}
+.home {
+  background-color: #333;
+}
+.btn-home {
+  background-color: #fff; /* Cinza escuro */
+  border-color: #555; /* Mantenha a borda na mesma cor do fundo */
+  color: black;
+}
+.body {
+  background-color: #DFDFDF;
+}
